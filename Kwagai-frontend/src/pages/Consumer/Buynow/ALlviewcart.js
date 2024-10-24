@@ -14,7 +14,7 @@ import { useNavigate } from "react-router-dom";
 
 const ALIviewcart = () => {
   const token = sessionStorage.getItem("Token");
-  const BASE_url = "http://localhost:5000";
+  const BASE_url = "http://145.223.19.45:5000";
   const [UserID, setUserID] = useState("");
   const [cartItems, setCartItems] = useState([]);
   const [totalamount, setTotalamount] = useState("");

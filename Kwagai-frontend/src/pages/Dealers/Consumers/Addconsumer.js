@@ -14,7 +14,7 @@ const AddConsumer = () => {
   if(token===null || token===""){
     navigate("/")
   }
-  const BASE_url = "http://localhost:5000";
+  const BASE_url = "http://145.223.19.45:5000";
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

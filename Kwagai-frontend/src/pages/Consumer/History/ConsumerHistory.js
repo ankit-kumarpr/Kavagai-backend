@@ -5,7 +5,7 @@ import axios from 'axios';
 const ConsumerHistory = () => {
 
     const token = sessionStorage.getItem('Token');
-    const BASE_URL = "http://localhost:5000";
+    const BASE_URL = "http://145.223.19.45:5000";
     const [orders, setOrders] = useState([]);
     const [userId, setUserId] = useState("");
   

@@ -11,7 +11,7 @@ import "../Buynow/product.css";
 
 const Productlist = () => {
   const token = sessionStorage.getItem("Token");
-  const BASE_url = "http://localhost:5000";
+  const BASE_url = "http://145.223.19.45:5000";
   const [UserId, setUserId] = useState(""); // Store userId
 
   const [categories, setCategories] = useState([]);

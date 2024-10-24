@@ -9,7 +9,7 @@ import Swal from "sweetalert2";
 
 const Viewblogs = () => {
   const token = sessionStorage.getItem("Token");
-  const BASE_URL1 = "http://localhost:5000";
+  const BASE_URL1 = "http://145.223.19.45:5000";
   const [products, setProducts] = useState([]);
 
   useEffect(() => {

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const AddProduct = () => {
   const token = sessionStorage.getItem("Token");
-  const BASE_url = "http://localhost:5000";
+  const BASE_url = "http://145.223.19.45:5000";
 
   const [categories, setCategories] = useState([]); 
   const [selectedCategory, setSelectedCategory] = useState("");

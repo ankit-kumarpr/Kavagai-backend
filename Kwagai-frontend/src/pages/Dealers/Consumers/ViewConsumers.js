@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 const ViewConsumers = () => {
   const token = sessionStorage.getItem("Token");
-  const BASE_url = "http://localhost:5000";
+  const BASE_url = "http://145.223.19.45:5000";
 
   const [consumers, setConsumers] = useState([]);
   const [open, setOpen] = useState(false);

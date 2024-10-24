@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
  function Login() {
-  const BASE_url = "http://localhost:5000";
+  const BASE_url = "http://145.223.19.45:5000";
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

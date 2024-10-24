@@ -302,7 +302,7 @@ const ALIviewcart = () => {
                           <td>
                             <div className="d-flex">
                               <img
-                                src={`http://localhost:5000/${item.product.image}`}
+                                src={`http://145.223.19.45:5000/${item.product.image}`}
                                 alt={item.product.name}
                                 className="img-fluid"
                                 style={{

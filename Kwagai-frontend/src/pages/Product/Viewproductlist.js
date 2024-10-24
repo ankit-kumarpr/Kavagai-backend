@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 
 const Viewproductlist = () => {
   const token = sessionStorage.getItem("Token");
-  let BASE_URL1 = "http://localhost:5000/api/admin";
+  let BASE_URL1 = "http://145.223.19.45:5000/api/admin";
   const [products, setProducts] = useState([]);
 
   // State for the modal
@@ -142,7 +142,7 @@ const Viewproductlist = () => {
                         <td>
                           <div className="d-flex align-items-center">
                             <img
-                              src={`http://localhost:5000/${product.image}`}
+                              src={`http://145.223.19.45:5000/${product.image}`}
                               alt={product.name}
                               style={{
                                 width: "50px",

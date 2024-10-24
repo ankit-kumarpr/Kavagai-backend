@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Addblog = () => {
   const token = sessionStorage.getItem("Token");
-  const BASE_url = "http://localhost:5000";
+  const BASE_url = "http://145.223.19.45:5000";
 
   const [title1, setTitle1] = useState(""); 
   const [details1, setDetails1] = useState(""); 

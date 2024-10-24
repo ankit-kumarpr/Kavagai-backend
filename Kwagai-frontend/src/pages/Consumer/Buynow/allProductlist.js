@@ -10,7 +10,7 @@ import { jwtDecode } from "jwt-decode"; // Corrected import
 
 const ALLProductlist = () => {
   const token = sessionStorage.getItem("Token");
-  const BASE_url = "http://localhost:5000";
+  const BASE_url = "http://145.223.19.45:5000";
   const [UserId, setUserId] = useState(""); // Store userId
 
   const [categories, setCategories] = useState([]);
@@ -233,7 +233,7 @@ const ALLProductlist = () => {
               <Card className="h-100">
                 <Card.Img
                   variant="top"
-                  src={`http://localhost:5000/${product.image}`}
+                  src={`http://145.223.19.45:5000/${product.image}`}
                   alt={product.name}
                   style={{ height: "200px", width: "auto" }}
                 />
@@ -293,7 +293,7 @@ const ALLProductlist = () => {
                   >
                     <div className="d-flex align-items-center">
                       <img
-                        src={`http://localhost:5000/${item.product.image}`}
+                        src={`http://145.223.19.45:5000/${item.product.image}`}
                         alt={item.name}
                         style={{
                           width: "50px",
